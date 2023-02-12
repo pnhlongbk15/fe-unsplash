@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import { updateInfo } from '~/controller/userController'
+import { updateInfo } from '../../../controller/userController'
 
 const Password = () => {
   const [currPassword, setCurrPassword] = useState(null)

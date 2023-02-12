@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
-import { categories } from '~/data/categories';
+import { categories } from '../../../data/categories';
 import { ArrowBackIos, ArrowForwardIos } from '@mui/icons-material';
 
 const sliderSettings = {

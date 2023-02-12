@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useSelector } from "react-redux";
-import logo from "~/assets/unsplash-logo.svg";
+import logo from "../../assets/unsplash-logo.svg";
 
 const Account = ({ children }) => {
   const { username, profile_image } = useSelector((state) => state.user.currentUser);

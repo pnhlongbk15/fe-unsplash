@@ -4,9 +4,9 @@ import { useDispatch } from 'react-redux';
 
 import { Google, AcUnitRounded } from '@mui/icons-material';
 import { handleLoginGG } from '../controller/handleLogin'
-import { login } from '~/controller/authController';
+import { login } from '../controller/authController';
 
-import logo from "~/assets/unsplash-logo.svg";
+import logo from "../assets/unsplash-logo.svg";
 
 
 const Login = () => {

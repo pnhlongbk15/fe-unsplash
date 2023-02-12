@@ -7,13 +7,13 @@ import {
         loginSuccess,
         loginFailed,
         logoutSuccess,
-} from "~/redux/slice/auth";
+} from "../redux/slice/auth";
 
 import {
         getMeStart,
         getMeSuccess,
         getMeFailed
-} from "~/redux/slice/user";
+} from "../redux/slice/user";
 
 const register = (info, navigate, dispatch) => {
         dispatch(registerStart());

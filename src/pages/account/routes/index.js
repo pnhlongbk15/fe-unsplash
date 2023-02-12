@@ -1,7 +1,7 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 
-import Account from '~/pages/account/Account'
+import Account from '../../../pages/account/Account'
 
 import {
    Profile,

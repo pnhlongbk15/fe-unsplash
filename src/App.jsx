@@ -1,9 +1,9 @@
 import { useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux';
 
-import Switch from '~/router/Switch'
+import Switch from './router/Switch'
 
-import { getUser } from '~/controller/authController';
+import { getUser } from './controller/authController';
 
 const App = () => {
         const dispatch = useDispatch();

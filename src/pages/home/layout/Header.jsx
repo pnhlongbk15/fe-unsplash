@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { useSelector, useDispatch } from 'react-redux'
 
-import { logout } from '~/controller/authController'
-import logo from '~/assets/unsplash-logo.svg'
+import { logout } from '../../../controller/authController'
+import logo from '../../../assets/unsplash-logo.svg'
 import { NotificationsActiveSharp, SearchSharp, CenterFocusWeakSharp, Menu } from '@mui/icons-material';
 
 const Header = () => {

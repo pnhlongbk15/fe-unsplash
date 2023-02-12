@@ -1,12 +1,12 @@
 import React, { useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import { register } from '~/controller/authController';
+import { register } from '../controller/authController';
 
 import { Google, AcUnitRounded } from '@mui/icons-material';
-import { handleLoginGG } from '~/controller/handleLogin';
+import { handleLoginGG } from '../controller/handleLogin';
 
-import logo from "~/assets/unsplash-logo.svg";
+import logo from "../assets/unsplash-logo.svg";
 
 const Register = () => {
    const dispatch = useDispatch();

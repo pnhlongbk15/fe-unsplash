@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react'
 import { useSelector } from 'react-redux'
 
-import { updateInfo, updateImage } from '~/controller/userController'
+import { updateInfo, updateImage } from '../../../controller/userController'
 
 const Profile = () => {
   const { currentUser } = useSelector((state) => state.user)
